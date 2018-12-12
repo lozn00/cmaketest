@@ -1,6 +1,16 @@
 #include <stdio.h>
+#include "static.h"
 
-int staticcall() {
+void staticcall() {
     printf("Hello, static!\n");
-    return 0;
+    return ;
+}
+
+void staticvoidcall() {
+    printf("static void call\n");
+
+}
+
+void normalstatic() {
+    printf("normalstatic \n");
 }

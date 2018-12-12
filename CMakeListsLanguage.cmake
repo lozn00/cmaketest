@@ -103,4 +103,4 @@ endwhile()
 ]]
 
 
-add_executable(CMakeTestC main.c)
+add_executable(CMakeTestC execute.c)

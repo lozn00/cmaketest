@@ -1,2 +1,2 @@
  message("execute program")
- add_executable(myexecute main.c)
+ add_executable(myexecute execute.c)

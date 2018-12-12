@@ -39,6 +39,7 @@
  endif ()
 
 
+
  if (str STREQUAL str)
      message("str equal  ")
  endif ()
@@ -78,7 +79,7 @@
  ENDIF(WIN32)
 # add_executable(CMakeTestC main.c)
 
- add_library(MYMODULE main.c)
+ add_library(MYMODULE execute.c)
 # EXECUTE_PROCESS()
 # EXEC_PROGRAM("notepad")#打开记事本。
  message("CMAKE_BUILD_TYPE  ${CMAKE_BUILD_TYPE}")#debug

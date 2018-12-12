@@ -1,2 +1,9 @@
 /cmake-build-debug
 /.idea
+/*.i64
+/*.h~
+/*.c~
+/*.cmake~
+/CMakeFiles
+/cmake-build-debug-cygwin
+/*.cpp~

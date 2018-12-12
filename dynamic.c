@@ -1,11 +1,12 @@
 #include <stdio.h>
-__declspec(dllexport) //导出函数
-extern "C" void _declspec(dllexport)int dynamiccall() {
+//导出函数
+
+int dynamiccall() {
     printf("Hello, Test dynamic new... !\n");
-    return 0;
+    return 15;
 }
 
-extern "C" void _declspec(dllexport) void notimportcall(){
+void notimportcall(){
 
-    printf("not import call dynamic ...")
+    printf("not import call dynamic ...\n");
 }

@@ -6,4 +6,4 @@ SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)           #设置库文件的
 #cmake 编译的基本用法 cmake ./ 后面的参数为CMakeLists.txt所在目录, 然后执行make就能生成文件.linux无需配置特殊环境.
 # include(CMakeListsCompileType.cmake)# test compile type
 
-include(CMakeListsLinker.cmake) #test link dynamic or static
+#include(CMakeListsLinker.cmake) #test link dynamic or static

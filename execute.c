@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <rpc.h>
+//#include <rpc.h>
 //#include <dlfcn.h>
 #include "dynamic.h"
-#include <windows.h>
+//#include <windows.h>
 
 //#include <linux.h>
 
